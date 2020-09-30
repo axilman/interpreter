@@ -1,3 +1,4 @@
+# type id -> var
 var name = "john doe";
 
 print(name);
