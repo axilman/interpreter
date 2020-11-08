@@ -2,14 +2,23 @@
 #define VISITOR_H
 #include "ast.h"
 
-ast_T* visitor_visit(ast_T* node);
+typedef struct VISITOR_STRUCT
+{
+    ast_T* variable_definitions;
+    size_t variable_definition_size;
+} visitor_T;
 
-ast_T* visitor_visit_variable_definition(ast_T* node);
+visitor_T* init_visitor();
 
-ast_T* visitor_visit_variable(ast_T* node);
+ast_T* visitor_visit_variable_definition(visitor_T* visitor, ast_T* node);
 
-ast_T* visitor_visit_string(ast_T* node);
+ast_T* visitor_visit_variable(visitor_T* visitor, ast_T* node);
 
-ast_T* visitor_visit_compound(ast_T* node);
+ast_T* visitor_visit_function_call(visitor_T* visitor, ast_T* node);
+
+ast_T* visitor_visit_string(visitor_T* visitor, ast_T* node);
+
+ast_T* visitor_visit_compound(visitor_T* visitor, ast_T* node);
  
+ast_T* visitor_visit(visitor_T* visitor, ast_T* node);
 #endif
