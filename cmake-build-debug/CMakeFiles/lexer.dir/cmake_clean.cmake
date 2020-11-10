@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lexer.dir/src/ast.c.o"
+  "CMakeFiles/lexer.dir/src/io.c.o"
   "CMakeFiles/lexer.dir/src/lexer.c.o"
   "CMakeFiles/lexer.dir/src/main.c.o"
   "CMakeFiles/lexer.dir/src/parser.c.o"

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/romanze/Dev/sandbox/interpreter/lexer/src/ast.c" "/Users/romanze/Dev/sandbox/interpreter/lexer/cmake-build-debug/CMakeFiles/lexer.dir/src/ast.c.o"
+  "/Users/romanze/Dev/sandbox/interpreter/lexer/src/io.c" "/Users/romanze/Dev/sandbox/interpreter/lexer/cmake-build-debug/CMakeFiles/lexer.dir/src/io.c.o"
   "/Users/romanze/Dev/sandbox/interpreter/lexer/src/lexer.c" "/Users/romanze/Dev/sandbox/interpreter/lexer/cmake-build-debug/CMakeFiles/lexer.dir/src/lexer.c.o"
   "/Users/romanze/Dev/sandbox/interpreter/lexer/src/main.c" "/Users/romanze/Dev/sandbox/interpreter/lexer/cmake-build-debug/CMakeFiles/lexer.dir/src/main.c.o"
   "/Users/romanze/Dev/sandbox/interpreter/lexer/src/parser.c" "/Users/romanze/Dev/sandbox/interpreter/lexer/cmake-build-debug/CMakeFiles/lexer.dir/src/parser.c.o"

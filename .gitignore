@@ -1,3 +1,6 @@
 *.swp
 *.out
 *.o
+.idea
+.vscode
+cmake-build-debug

@@ -4,12 +4,16 @@
 CMakeFiles/lexer.dir/src/ast.c.o
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/ast.c
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/ast.h
+CMakeFiles/lexer.dir/src/io.c.o
+ /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/io.h
+ /Users/romanze/Dev/sandbox/interpreter/lexer/src/io.c
 CMakeFiles/lexer.dir/src/lexer.c.o
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/lexer.h
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/token.h
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/lexer.c
 CMakeFiles/lexer.dir/src/main.c.o
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/ast.h
+ /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/io.h
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/lexer.h
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/parser.h
  /Users/romanze/Dev/sandbox/interpreter/lexer/src/include/token.h

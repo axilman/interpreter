@@ -169,6 +169,33 @@ src/ast.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexer.dir/build.make CMakeFiles/lexer.dir/src/ast.c.s
 .PHONY : src/ast.c.s
 
+src/io.o: src/io.c.o
+
+.PHONY : src/io.o
+
+# target to build an object file
+src/io.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexer.dir/build.make CMakeFiles/lexer.dir/src/io.c.o
+.PHONY : src/io.c.o
+
+src/io.i: src/io.c.i
+
+.PHONY : src/io.i
+
+# target to preprocess a source file
+src/io.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexer.dir/build.make CMakeFiles/lexer.dir/src/io.c.i
+.PHONY : src/io.c.i
+
+src/io.s: src/io.c.s
+
+.PHONY : src/io.s
+
+# target to generate assembly for a file
+src/io.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexer.dir/build.make CMakeFiles/lexer.dir/src/io.c.s
+.PHONY : src/io.c.s
+
 src/lexer.o: src/lexer.c.o
 
 .PHONY : src/lexer.o
@@ -316,6 +343,9 @@ help:
 	@echo "... src/ast.o"
 	@echo "... src/ast.i"
 	@echo "... src/ast.s"
+	@echo "... src/io.o"
+	@echo "... src/io.i"
+	@echo "... src/io.s"
 	@echo "... src/lexer.o"
 	@echo "... src/lexer.i"
 	@echo "... src/lexer.s"

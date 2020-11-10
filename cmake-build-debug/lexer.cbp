@@ -86,6 +86,9 @@
 		<Unit filename="/Users/romanze/Dev/sandbox/interpreter/lexer/src/include/ast.h">
 			<Option target="lexer"/>
 		</Unit>
+		<Unit filename="/Users/romanze/Dev/sandbox/interpreter/lexer/src/include/io.h">
+			<Option target="lexer"/>
+		</Unit>
 		<Unit filename="/Users/romanze/Dev/sandbox/interpreter/lexer/src/include/lexer.h">
 			<Option target="lexer"/>
 		</Unit>
@@ -99,6 +102,9 @@
 			<Option target="lexer"/>
 		</Unit>
 		<Unit filename="/Users/romanze/Dev/sandbox/interpreter/lexer/src/include/visitor.h">
+			<Option target="lexer"/>
+		</Unit>
+		<Unit filename="/Users/romanze/Dev/sandbox/interpreter/lexer/src/io.c">
 			<Option target="lexer"/>
 		</Unit>
 		<Unit filename="/Users/romanze/Dev/sandbox/interpreter/lexer/src/lexer.c">

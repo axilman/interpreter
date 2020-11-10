@@ -13,11 +13,13 @@ add_executable(lexer
         src/include/parser.h
         src/include/token.h
         src/include/visitor.h
+        src/include/io.h
         src/ast.c
         src/lexer.c
         src/main.c
         src/parser.c
         src/token.c
-        src/visitor.c)
+        src/visitor.c
+        src/io.c)
 
 #target_compile_options(constructor PRIVATE ${OPTIONS})

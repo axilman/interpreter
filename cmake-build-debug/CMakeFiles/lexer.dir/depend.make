@@ -4,11 +4,15 @@
 CMakeFiles/lexer.dir/src/ast.c.o: ../src/ast.c
 CMakeFiles/lexer.dir/src/ast.c.o: ../src/include/ast.h
 
+CMakeFiles/lexer.dir/src/io.c.o: ../src/include/io.h
+CMakeFiles/lexer.dir/src/io.c.o: ../src/io.c
+
 CMakeFiles/lexer.dir/src/lexer.c.o: ../src/include/lexer.h
 CMakeFiles/lexer.dir/src/lexer.c.o: ../src/include/token.h
 CMakeFiles/lexer.dir/src/lexer.c.o: ../src/lexer.c
 
 CMakeFiles/lexer.dir/src/main.c.o: ../src/include/ast.h
+CMakeFiles/lexer.dir/src/main.c.o: ../src/include/io.h
 CMakeFiles/lexer.dir/src/main.c.o: ../src/include/lexer.h
 CMakeFiles/lexer.dir/src/main.c.o: ../src/include/parser.h
 CMakeFiles/lexer.dir/src/main.c.o: ../src/include/token.h
