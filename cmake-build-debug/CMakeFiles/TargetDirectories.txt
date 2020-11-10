@@ -1,3 +1,0 @@
-/Users/romanze/Dev/sandbox/interpreter/lexer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/romanze/Dev/sandbox/interpreter/lexer/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/romanze/Dev/sandbox/interpreter/lexer/cmake-build-debug/CMakeFiles/lexer.dir
